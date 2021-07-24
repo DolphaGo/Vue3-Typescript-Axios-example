@@ -6,12 +6,12 @@ const routes: Array<RouteRecordRaw> = [
     path: '/',
     alias: '/tutorials',
     name: 'tutorials',
-    component: () => import('./components/TutorialsList.vue'),
+    component: () => import('./components/TutorialList.vue'),
   },
   {
     path: '/tutorials/:id',
     name: 'tutorial-details',
-    component: () => import('./components/TutorialDetails.vue'),
+    component: () => import('./components/TutorialDetail.vue'),
   },
   {
     path: '/add',
