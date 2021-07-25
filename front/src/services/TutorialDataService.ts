@@ -18,7 +18,7 @@ class TutorialDataService {
   }
 
   delete(id: any): Promise<any> {
-    return http.put(`/tutorials/${id}`, id)
+    return http.delete(`/tutorials/${id}`, id)
   }
 
   deleteAll(): Promise<any> {

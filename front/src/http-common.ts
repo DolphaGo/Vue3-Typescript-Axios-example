@@ -1,9 +1,9 @@
 import axios, { AxiosInstance } from 'axios'
 
 const apiClient: AxiosInstance = axios.create({
-  baseURL: 'http://localhost:8888/adservices/v1/policies',
+  baseURL: 'http://localhost:8080/',
   headers: {
-    'Content-type': 'application/json',
+    // 'Content-type': 'application/json',
   },
 })
 
